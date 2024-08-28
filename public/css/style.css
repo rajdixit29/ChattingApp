@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#clickit{
+   background-attachment: fixed;
+   position: relative;
+   top: 245px;
+}
+#nav{
+    display:flex;
+    background-color: blue;
+    border:4px solid  skyblue ;
+}
+
+li{
+    color: antiquewhite;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite ;
+}
+body{
+    background-image:url('../istockphoto-1356933529-170667a.jpg');
+    background-size: cover;
+   
+}
+#NAME{
+    position: relative;
+    left: 800px;
+    color: whitesmoke;
+    font-size: 60px;
+
+}
+#messagesec{
+background-color: rgb(26, 0, 128);
+color: aliceblue;
+width: 700px;
+font-weight:bolder;
+}
+#fun{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: white;
+}
+.kl{
+    display: inline-block;
+    width:700px; 
+    height:500px; 
+    overflow-y: scroll;
+   
+    border: 5px solid yellow;
+    color: white;
+    background-image: url('../images/hkkkk.jpg');
+    background-size:cover ;
+}
+.img1{background-image: url('../wooden-table-and-blur-of-beauty-sunset-sky-and-mountains-as-background-free-photo.jpg');
+   background-size:cover ;}
+
+
+input{
+    width: 600px;
+    height: 30px;
+   position: relative;
+   top: 30px;
+   right: 700px;
+   /* display: flex;
+   flex-grow: 1; */
+}
+
+#vedios{
+    width: 700px;
+    height: 500px;
+    border: 5px solid green;
+    position: relative;
+    left: 800px;
+    display: inline-block;
+    top: -516px;
+    overflow: scroll;
+    background-color: black;
+}
+
+
+#vedio:hover{
+    background-color: rgb(0, 255, 251);
+}
+.message{
+width: 300px;
+height: auto;
+
+
+background-image: linear-gradient(rgba(170, 0, 255, 0.5),red,rgb(17, 15, 15));
+border-radius: 10px;
+border: 1px solid rgb(246, 236, 238);
+
+color: rgb(255, 255, 255);
+overflow-wrap:break-word;
+margin-top: 10px;
+font-family: 'Alkatra', cursive;
+}
+
+.left{
+   float:left;
+   clear: both;
+   margin-left: 2px;
+}
+.right{
+   float: right;
+   clear: both;
+   margin-right: 3px;
+} 
+
+#vedio{
+    width: 199px;
+    height: 199px;
+    border: 6px solid rgb(11, 1, 21);
+ 
+    display: inline-block;
+     margin: 20px;
+     background-attachment: fixed;
+     
+     
+    }
+    .vedio{
+        width: 199px;
+        height: 199px;
+        
+        margin: 20px;
+    position: relative;
+    top: -6px;
+
+}
+#sendit{
+    width: 50px;
+    height: 30px;
+   position: relative;
+   top: 30px;
+   right: 700px;
+}
+@media screen and ( max-width:800px) {
+    body{
+        background-color: blanchedalmond;
+        background-image: none;
+        width: 171vw;
+        height: 200vh;
+        overflow-x: hidden;
+    }
+    .kl{
+        height: 65vh;
+        width:98vw;
+       
+        border: 5px solid yellow;
+        color: white;
+        background-image: none;
+        background-size:cover ;
+    }
+   
+    input {
+        width: 425px;
+        height: 30px;
+        position: relative;
+        top: 30px;
+        right: -2px;
+        display: flex;
+        flex-grow: 1;
+    }
+    #vedios{
+        width: 408px;
+        height: 500px;
+        border: 5px solid green;
+        position: relative;
+        left: -48px;
+        /* display: inline-block; */
+        top: 100px;
+        overflow: scroll;
+        background-color: black;
+    }
+    #NAME{
+        position: relative;
+        left: 104px;
+        color: whitesmoke;
+        font-size:24px;
+    
+    }
+    #nav{
+        display:flex;
+        width: 100vw;
+        background-color: blue;
+        border:4px solid  skyblue ;
+    }
+    #clickit{
+        background-attachment: fixed;
+        position: relative;
+        top: 68px;
+     }
+     body{
+        width: 100vw;
+        height: 100vh;
+     }
+    
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F8F8F8;
+    font-family: 'Roboto', sans-serif;
+}
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #8F8BE8;
+    color: #fff;  
+}
+.outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+} */
